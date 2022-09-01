@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>music play</title>
+    <link rel="stylesheet" href="./assets/style/style.css">
+    <script src="./assets/script.js" defer></script>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+<h1>Swakala player</h1>
+
+<div>
+<i onclick="lightMode(); darkMode(); mode++"  id='mode' class='bx bx-sun'></i>
+<i onclick="play(); pause(); stat_music++"   id='play' class='bx bx-play'></i>
+</div>
+
+<h3>JLK in collaboration with @KabeluSon</h3>
+
+<!-- controls -->
+<audio id="music">
+    <source src="./assets/audio/grace.mp3" type="audio/mpeg">
+</audio>
+</body>
+</html>
